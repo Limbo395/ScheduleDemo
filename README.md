@@ -1,4 +1,4 @@
-# Spring Async Demo
+# BreadcrumbsAsynchronous-programming-Practical-task-6
 
 Ця програма демонструє асинхронність у Spring за допомогою `@Scheduled` та `ScheduledExecutorService`.
 
@@ -16,7 +16,6 @@
 
    ```bash
    ./gradlew bootRun
-
 
 ## Очікуваний результат
 
@@ -37,10 +36,10 @@
 Записано у файл: Лічильник: 60
 ```
 
-**Додатково**
+## Додатково
 
 У кореневій директорії проекту буде створено файл updated_data.txt, який міститиме рядки з оновленими значеннями лічильника.
 
-**Залежності**
+## Залежності
 
 Spring Boot Starter
