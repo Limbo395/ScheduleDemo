@@ -1,45 +1,42 @@
-# BreadcrumbsAsynchronous-programming-Practical-task-6
+# ScheduleDemo
 
-Ця програма демонструє асинхронність у Spring за допомогою `@Scheduled` та `ScheduledExecutorService`.
+This program demonstrates asynchronicity in Spring using @Scheduled and ScheduledExecutorService.
 
-## Завдання
+## Task
 
-- Кожні 10 секунд оновлюються дані у файлі `updated_data.txt`, збільшуючи лічильник на 5.
-- Через 5 секунд після запуску програми виводиться повідомлення "5 секунд від запуску програми".
+- Every 10 seconds, data in the file updated_data.txt is updated by increasing a counter by 5.
+- 5 seconds after starting the program, the message "5 seconds since the program started" is displayed.
 
-## Як запустити
+## How to Run
 
-1. Переконайтеся, що у вас встановлено Java та Gradle.
-2. Клонуйте цей репозиторій.
-3. Перейдіть у кореневу директорію проекту.
-4. Виконайте команду для збірки та запуску програми:
+1. Make sure you have Java and Gradle installed.
+2. Clone this repository.
+3. Go to the root directory of the project.
+4. Run the command to build and start the program:
 
    ```bash
    ./gradlew bootRun
+   ```
 
-## Очікуваний результат
+## Expected Result
 
-Після запуску програми ви побачите наступний вивід у консолі:
+After starting the program, you will see the following output in the console:
 ```output
-Записано у файл: Лічильник: 5
-5 секунд від запуску програми
-Записано у файл: Лічильник: 10
-Записано у файл: Лічильник: 15
-Записано у файл: Лічильник: 20
-Записано у файл: Лічильник: 25
-Записано у файл: Лічильник: 30
-Записано у файл: Лічильник: 35
-Записано у файл: Лічильник: 40
-Записано у файл: Лічильник: 45
-Записано у файл: Лічильник: 50
-Записано у файл: Лічильник: 55
-Записано у файл: Лічильник: 60
+Written to file: Counter: 5
+5 seconds since the program started
+Written to file: Counter: 10
+Written to file: Counter: 15
+Written to file: Counter: 20
+Written to file: Counter: 25
+Written to file: Counter: 30
+Written to file: Counter: 35
+Written to file: Counter: 40
+Written to file: Counter: 45
+Written to file: Counter: 50
+Written to file: Counter: 55
+Written to file: Counter: 60
 ```
 
-## Додатково
+## Additional
 
-У кореневій директорії проекту буде створено файл updated_data.txt, який міститиме рядки з оновленими значеннями лічильника.
-
-## Залежності
-
-Spring Boot Starter
+A file named updated_data.txt will be created in the root directory of the project, containing lines with updated counter values.
